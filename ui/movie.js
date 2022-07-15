@@ -78,7 +78,7 @@ const movie={template:`
                 </div>
                 <div class="input-group mb-3">
                     <span class="input-group-text">Release Year</span>
-                    <input type="text" class="form-control" v-model="ReleaseYear" required minlength="4">
+                    <input type="text" class="form-control" v-model="ReleaseYear" required minlength="4" maxlength="4">
                 </div>
                 
                 <!-- Buttons within modal to update or create a movie-->
